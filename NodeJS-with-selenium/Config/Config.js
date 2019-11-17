@@ -1,0 +1,1 @@
+module.exports={Browser:'firefox',URL:'https://www.syska.co.in/' };
