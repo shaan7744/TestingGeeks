@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Syska">
+ <listeners>
+<listener  class-name="com.syska.utilities.Reporting"/>
+</listeners>
+
+<test name="Syska Framework">
+<parameter name="browser" value="firefox" />
+<classes>
+ 
+<class name="com.syska.testcases.Tc_Login_Parameterization"/>
+ 
+
+
+ 
+</classes>
+
+</test>
+
+</suite>
